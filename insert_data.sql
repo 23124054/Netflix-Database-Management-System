@@ -10,7 +10,7 @@ insert into users (name,email,country,join_date,age,gender)
 
      insert into movies (title,genre,release_year,durations_minutes,language,rating)
      values
-     ('soorarai pottru','biography',2020,153,'TAMIL',8.7);
+     ('soorarai pottru','biography',2020,153,'TAMIL',8.7),
      ('chennai express','comedy',2013,141,'HINDI',7.5),
      ('pushpa','action',2021,179,'TELUGU',7.6),
      ('kantara','thriller/folk',2022,148,'KANNADA',8.3),
@@ -21,6 +21,7 @@ insert into users (name,email,country,join_date,age,gender)
 
      insert into subscriptions_plan(plan_name,price,duration_months,video_quality)
      values
+     ('Basic',199, 1,'HD'),
      ('standard',499,3,'FULL HD'),
      ('premium',999,6,'4k'),
      ('family plan',1499,12,'ultra HD'),
